@@ -33,7 +33,4 @@ fn get_products(array: &Vec<i32>) -> Vec<i32> {
         return result;
     }
     return array.into_iter().map(|num: &i32| zeroless_product / *num).collect::<Vec<i32>>();
-
-
 }
-
