@@ -1,4 +1,9 @@
 fn main() {
+    /* task: You have an array of integers, and for each index 
+    you want to find the product of every integer except the integer 
+    at that index. Create a function that takes an array of integers 
+    and returns an array of the products */
+    
     println!("{:?}", get_products(&vec![1, 2, 9, 3, 4, 5, 1]));
     println!("{:?}", get_products(&vec![0, 1, 2, 3, 4]));
     println!("{:?}", get_products(&vec![1, 0, 1, 2, 4, 0, 2]));
