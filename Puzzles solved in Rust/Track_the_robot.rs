@@ -25,7 +25,7 @@ fn main() {
 	println!("{:?}", track_robot("..<.>..<<...<.."));
 }
 
-fn track_robot<'a>(steps: &'a str) -> Result<[u8; 2], String> {
+fn track_robot(steps: &str) -> Result<[u8; 2], String> {
 	let mut robot_coords: [u8; 2] = [0, 0];
 	if steps.len() == 0 {
 		return Ok(robot_coords);
