@@ -12,11 +12,11 @@ fn main() -> () {
 pub fn hex_lattice(num: i16) -> String {
     let sqrt_discriminant = ((9 + 12 * (num - 1)) as f32).sqrt();
     
-    if sqrt_discriminant.fract() != 0.0 {
+    if sqrt_discriminant.fract() != 0. {
         return "invalid num parameter".to_string();
     }
     
-    let n = ((3.0 + sqrt_discriminant) / 6.0) as i16;
+    let n = ((3. + sqrt_discriminant) / 6.) as i16;
 
     let mut decreasing: bool = false;
     let mut addition: i16 = 0;
