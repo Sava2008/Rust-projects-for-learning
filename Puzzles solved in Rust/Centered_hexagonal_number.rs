@@ -6,6 +6,7 @@ fn main() -> () {
     println!("{}", hex_lattice(28));
     println!("{}", hex_lattice(100));
     println!("{}", hex_lattice(91));
+    println!("{}", hex_lattice(-37));
 }
 
 pub fn hex_lattice(num: i16) -> String {
